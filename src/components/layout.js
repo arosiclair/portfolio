@@ -1,5 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
+import { device } from '../media-queries';
 import Nav from './nav';
 
 const PageContainer = styled.div`
@@ -8,23 +9,36 @@ const PageContainer = styled.div`
 `;
 const ContentContainer = styled.div`
   width: max(850px, 1vw);
-  display: flex;
 `;
 const MainContainer = styled.main`
   flex: 1;
 `;
 const NavConatiner = styled.nav`
-  width: 200px;
+  position: sticky;
+  top: 0;
+
+  @media ${device.tablet} {
+    height: 100%;
+    width: 200px;
+    float: right;
+  }
+`;
+
+const NavContent = styled.div`
+  position: sticky;
+  top: 0;
 `;
 
 const Layout = ({ children }) => {
   return (
     <PageContainer>
       <ContentContainer>
-        <MainContainer>{children}</MainContainer>
         <NavConatiner>
-          <Nav />
+          <NavContent>
+            <Nav />
+          </NavContent>
         </NavConatiner>
+        <MainContainer>{children}</MainContainer>
       </ContentContainer>
     </PageContainer>
   );
