@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { device } from '../media-queries';
+import theme from '../theme';
 import Nav from './nav';
 
 const PageContainer = styled.div`
@@ -17,7 +17,7 @@ const NavConatiner = styled.nav`
   position: sticky;
   top: 0;
 
-  @media ${device.tablet} {
+  @media ${theme.mediaQueries.tablet} {
     height: 100%;
     width: 200px;
     float: right;
