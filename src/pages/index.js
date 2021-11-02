@@ -1,11 +1,14 @@
 import * as React from 'react';
+import IntroSection from '../components/intro';
 import Layout from '../components/layout';
+import SkillsSection from '../components/skills';
 
 // markup
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>Hello, World!</h1>
+      <IntroSection />
+      <SkillsSection />
     </Layout>
   );
 };
