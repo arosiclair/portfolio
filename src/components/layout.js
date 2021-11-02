@@ -1,6 +1,6 @@
-import * as React from "react";
-import styled from "styled-components";
-import Nav from "./nav";
+import * as React from 'react';
+import styled from 'styled-components';
+import Nav from './nav';
 
 const PageContainer = styled.div`
   display: flex;
