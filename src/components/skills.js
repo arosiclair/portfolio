@@ -38,19 +38,19 @@ const SkillsSection = () => (
     <Skill title="Software Engineering">
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/dot.svg" />
+          <StaticImage src="../images/icons/dot.svg" alt="" />
         </TechItemIcon>
         Algorithm Design
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/dot.svg" />
+          <StaticImage src="../images/icons/dot.svg" alt="" />
         </TechItemIcon>
         Service Oriented Architecture
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/dot.svg" />
+          <StaticImage src="../images/icons/dot.svg" alt="" />
         </TechItemIcon>
         REST APIs
       </TechItem>
@@ -58,25 +58,25 @@ const SkillsSection = () => (
     <Skill title="Frontend Development">
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/react.svg" />
+          <StaticImage src="../images/icons/react.svg" alt="" />
         </TechItemIcon>
         React
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/redux.svg" />
+          <StaticImage src="../images/icons/redux.svg" alt="" />
         </TechItemIcon>
         Redux
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/vue.svg" />
+          <StaticImage src="../images/icons/vue.svg" alt="" />
         </TechItemIcon>
         Vue
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/vue.svg" />
+          <StaticImage src="../images/icons/vue.svg" alt="" />
         </TechItemIcon>
         Vuex
       </TechItem>
@@ -84,25 +84,28 @@ const SkillsSection = () => (
     <Skill title="Backend Development">
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/express.svg" />
+          <StaticImage src="../images/icons/express.svg" alt="" />
         </TechItemIcon>
         ExpressJS
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/mongodb.svg" />
+          <StaticImage src="../images/icons/mongodb.svg" alt="" />
         </TechItemIcon>
         MongoDB
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/dotnet.svg" />
+          <StaticImage src="../images/icons/dotnet.svg" alt="" />
         </TechItemIcon>
         ASP.NET
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/database.svg" />
+          <StaticImage
+            src="../images/icons/database.svg"
+            alt="sqlserver icon"
+          />
         </TechItemIcon>
         SQLServer
       </TechItem>
@@ -111,7 +114,7 @@ const SkillsSection = () => (
     <Skill title="UI Design & Wireframing">
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/figma.svg" />
+          <StaticImage src="../images/icons/figma.svg" alt="" />
         </TechItemIcon>
         Figma
       </TechItem>
@@ -119,25 +122,25 @@ const SkillsSection = () => (
     <Skill title="Languages">
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/javascript.svg" />
+          <StaticImage src="../images/icons/javascript.svg" alt="" />
         </TechItemIcon>
         Javascript
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/typescript.svg" />
+          <StaticImage src="../images/icons/typescript.svg" alt="" />
         </TechItemIcon>
         Typescript
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/python.svg" />
+          <StaticImage src="../images/icons/python.svg" alt="" />
         </TechItemIcon>
         Python
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/csharp.svg" />
+          <StaticImage src="../images/icons/csharp.svg" alt="" />
         </TechItemIcon>
         C#
       </TechItem>
