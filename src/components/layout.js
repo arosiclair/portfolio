@@ -2,6 +2,8 @@ import * as React from 'react';
 import styled from 'styled-components';
 import theme from '../theme';
 import Nav from './nav';
+import 'normalize.css';
+import '../styles/reset.css';
 
 const PageContainer = styled.div`
   display: flex;
