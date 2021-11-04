@@ -1,7 +1,8 @@
 import * as React from 'react';
-import IntroSection from '../components/intro';
 import Layout from '../components/layout';
+import IntroSection from '../components/intro';
 import SkillsSection from '../components/skills';
+import ExperienceSection from '../components/experience';
 
 // markup
 const IndexPage = () => {
@@ -9,6 +10,7 @@ const IndexPage = () => {
     <Layout>
       <IntroSection />
       <SkillsSection />
+      <ExperienceSection />
     </Layout>
   );
 };
