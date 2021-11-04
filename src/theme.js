@@ -5,4 +5,7 @@ export default {
   mediaQueries: {
     tablet: '(min-width: 768px)',
   },
+  shape: {
+    borderRadius: '4px',
+  },
 };
