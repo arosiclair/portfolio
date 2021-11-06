@@ -4,6 +4,7 @@ import IntroSection from '../components/intro';
 import SkillsSection from '../components/skills';
 import ExperienceSection from '../components/experience';
 import ProjectsSection from '../components/projects';
+import EducationSection from '../components/education';
 
 // markup
 const IndexPage = () => {
@@ -11,6 +12,7 @@ const IndexPage = () => {
     <Layout>
       <IntroSection />
       <SkillsSection />
+      <EducationSection />
       <ExperienceSection />
       <ProjectsSection />
     </Layout>
