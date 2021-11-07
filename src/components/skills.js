@@ -41,24 +41,9 @@ const SkillsSection = () => (
   <section>
     <h2>Skills</h2>
     <Skill title="Software Engineering">
-      <TechItem>
-        <TechItemIcon>
-          <StaticImage src="../images/icons/dot.svg" {...iconProps} />
-        </TechItemIcon>
-        Algorithm Design
-      </TechItem>
-      <TechItem>
-        <TechItemIcon>
-          <StaticImage src="../images/icons/dot.svg" {...iconProps} />
-        </TechItemIcon>
-        Service Oriented Architecture
-      </TechItem>
-      <TechItem>
-        <TechItemIcon>
-          <StaticImage src="../images/icons/dot.svg" {...iconProps} />
-        </TechItemIcon>
-        REST APIs
-      </TechItem>
+      <TechItem>Algorithm Design</TechItem>
+      <TechItem>Service Oriented Architecture</TechItem>
+      <TechItem>REST APIs</TechItem>
     </Skill>
     <Skill title="Frontend Development">
       <TechItem>
