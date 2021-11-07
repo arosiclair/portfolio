@@ -44,9 +44,11 @@ const SkillsSection = () => (
   <section>
     <h2>Skills</h2>
     <Skill title="Software Engineering">
+      <TechItem>Software Design</TechItem>
       <TechItem>Algorithm Design</TechItem>
       <TechItem>Service Oriented Architecture</TechItem>
       <TechItem>REST APIs</TechItem>
+      <TechItem>OOP</TechItem>
     </Skill>
     <Skill title="Frontend Development">
       <TechItem>
