@@ -73,6 +73,18 @@ const SkillsSection = () => (
         </TechItemIcon>
         Vuex
       </TechItem>
+      <TechItem>
+        <TechItemIcon>
+          <StaticImage src="../images/icons/xamarin.svg" {...iconProps} />
+        </TechItemIcon>
+        Xamarin
+      </TechItem>
+      <TechItem>
+        <TechItemIcon>
+          <StaticImage src="../images/icons/pwa.svg" {...iconProps} />
+        </TechItemIcon>
+        Progressive Web Apps
+      </TechItem>
     </Skill>
     <Skill title="Backend Development">
       <TechItem>
@@ -100,7 +112,6 @@ const SkillsSection = () => (
         SQLServer
       </TechItem>
     </Skill>
-    <Skill title="PWA Development"></Skill>
     <Skill title="UI Design & Wireframing">
       <TechItem>
         <TechItemIcon>
