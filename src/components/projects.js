@@ -42,10 +42,8 @@ const ProjectsSection = () => (
         <p>
           Sooner is an <i>anti</i> reading list app. It provides a reading list
           where all additions are ephemeral, forcing users to keep a tidy list
-          and encouraging them to read entries in a timely manner. It features a
-          pleasant UI, installable PWA, Chrome extension, and push
-          notifications. This is a passion project and also an exercise in
-          improving Javscript and product building skills.
+          and read entries in a timely manner. It features a pleasant UI,
+          installable PWA, Chrome extension, and push notifications.
         </p>
       </ProjectDetails>
     </Project>
