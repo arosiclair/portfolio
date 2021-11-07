@@ -18,6 +18,7 @@ const SkillTitle = styled.span`
 
 const TechContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   padding: ${theme.spacing(1, 0, 0, 1)};
 `;
 
