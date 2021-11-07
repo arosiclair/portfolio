@@ -4,6 +4,7 @@ import theme from '../theme';
 import Nav from './nav';
 import 'normalize.css';
 import '../styles/reset.css';
+import '../styles/typography.css';
 
 const PageContainer = styled.div`
   display: flex;
