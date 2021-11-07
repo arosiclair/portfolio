@@ -6,15 +6,11 @@ import theme from '../theme';
 const Skill = ({ title, children }) => {
   return (
     <div>
-      <SkillTitle>{title}</SkillTitle>
+      <h3>{title}</h3>
       <TechContainer>{children}</TechContainer>
     </div>
   );
 };
-
-const SkillTitle = styled.span`
-  font-size: 1.2em;
-`;
 
 const TechContainer = styled.div`
   display: flex;
