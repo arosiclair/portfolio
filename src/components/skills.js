@@ -5,17 +5,20 @@ import theme from '../theme';
 
 const Skill = ({ title, children }) => {
   return (
-    <div>
+    <SkillContainer>
       <h3>{title}</h3>
       <TechContainer>{children}</TechContainer>
-    </div>
+    </SkillContainer>
   );
 };
+
+const SkillContainer = styled.div`
+  margin-bottom: ${theme.spacing(1)};
+`;
 
 const TechContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  padding: ${theme.spacing(1, 0, 0, 1)};
 `;
 
 const TechItem = styled.div`
