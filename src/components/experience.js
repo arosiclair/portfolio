@@ -43,14 +43,12 @@ const ExperienceSection = () => (
           that is used worldwide.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
-          Features and maintainence for a national gym&apos;s Android and iOS
-          app serving millions of users.
+          Android and iOS apps for a national gym serving millions of users.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
-          React app and Express API as part of a large research effort on
-          visualizing and expediting assurance of mission critical software.
-          Also created and orchestrated our product deployment process using
-          Docker and consulted on system architecture.
+          React app, Express API, deployment and system architecture for a large
+          research effort on visualizing and expediting assurance of mission
+          critical software.
         </ExperienceItemDetail>
       </ExperienceItemDetails>
     </ExperienceItem>
