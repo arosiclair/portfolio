@@ -11,12 +11,17 @@ const Project = styled.div`
 
   @media ${theme.mediaQueries.tablet} {
     flex-direction: row;
+    align-items: start;
   }
 `;
 
 const ProjectImage = styled.div`
   flex: 1;
-  margin-right: ${theme.spacing(1)};
+  margin: ${theme.spacing(0, 2, 2)};
+
+  @media ${theme.mediaQueries.tablet} {
+    margin: ${theme.spacing(2, 2, 0, 0)};
+  }
 `;
 
 const ProjectDetails = styled.div`
