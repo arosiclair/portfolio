@@ -1,6 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import theme from '../theme';
+import Timestamp from './timestamp';
 
 const ExperienceItem = styled.div``;
 
@@ -26,8 +27,9 @@ const ExperienceSection = () => (
   <section>
     <h2>Experience</h2>
     <ExperienceItem>
+      <Timestamp>2017 - Present</Timestamp>
       <ExperienceItemTitle>
-        Software Engineer @ Applied Visions (Aug 2017 - Present)
+        Software Engineer @ Applied Visions
       </ExperienceItemTitle>
       <ExperienceItemSummary>
         Building and maintaining a wide variety of products as part of large and

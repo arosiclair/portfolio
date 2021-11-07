@@ -2,6 +2,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import styled from 'styled-components';
 import theme from '../theme';
+import Timestamp from './timestamp';
 
 const Project = styled.div`
   display: flex;
@@ -36,7 +37,8 @@ const ProjectsSection = () => (
         />
       </ProjectImage>
       <ProjectDetails>
-        <h3>Sooner (2019-2021)</h3>
+        <Timestamp>2019 - Present</Timestamp>
+        <h3>Sooner</h3>
         <p>
           Sooner is an <i>anti</i> reading list app. It provides a reading list
           where all additions are ephemeral, forcing users to keep a tidy list
