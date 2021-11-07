@@ -19,6 +19,7 @@ const SkillContainer = styled.div`
 const TechContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
+  font-size: 0.9em;
 `;
 
 const TechItem = styled.div`
@@ -35,8 +36,8 @@ const TechItemIcon = styled.span`
 
 const iconProps = {
   alt: '',
-  width: 30,
-  height: 30,
+  width: 25,
+  height: 25,
   objectFit: 'contain',
 };
 
