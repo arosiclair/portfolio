@@ -8,10 +8,9 @@ const ExperienceItem = styled.div``;
 
 const ExperienceItemTitle = styled.h3``;
 
-const ExperienceItemSubtitle = styled.div`
-  margin-top: 0.2em;
-  font-size: 0.8em;
+const ExperienceItemSubtitle = styled.p`
   vertical-align: middle;
+  margin-bottom: 0.6em;
 `;
 
 const ExperienceItemSubtitleIcon = styled.span`
@@ -37,20 +36,18 @@ const ExperienceSection = () => (
     <h2>Experience</h2>
     <ExperienceItem>
       <Timestamp>2017 - Present</Timestamp>
-      <ExperienceItemTitle>
-        Software Engineer
-        <ExperienceItemSubtitle>
-          <ExperienceItemSubtitleIcon>
-            <StaticImage
-              src="../images/icons/avi.svg"
-              width={25}
-              height={25}
-              objectFit="contain"
-            />
-          </ExperienceItemSubtitleIcon>
-          Applied Visions, Inc.
-        </ExperienceItemSubtitle>
-      </ExperienceItemTitle>
+      <ExperienceItemTitle>Software Engineer</ExperienceItemTitle>
+      <ExperienceItemSubtitle>
+        <ExperienceItemSubtitleIcon>
+          <StaticImage
+            src="../images/icons/avi.svg"
+            width={25}
+            height={25}
+            objectFit="contain"
+          />
+        </ExperienceItemSubtitleIcon>
+        Applied Visions, Inc.
+      </ExperienceItemSubtitle>
 
       <ExperienceItemSummary>
         Building and maintaining a wide variety of products as part of large and
