@@ -11,6 +11,11 @@ const PageContainer = styled.div`
 `;
 const ContentContainer = styled.div`
   width: max(850px, 1vw);
+  padding: ${theme.spacing(0, 2)};
+
+  @media ${theme.mediaQueries.tablet} {
+    padding: ${theme.spacing(6, 3)};
+  }
 `;
 const MainContainer = styled.main`
   flex: 1;
@@ -23,6 +28,7 @@ const NavConatiner = styled.nav`
     height: 100%;
     width: 200px;
     float: right;
+    margin-top: ${theme.spacing(4)};
   }
 `;
 
