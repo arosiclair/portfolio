@@ -13,22 +13,18 @@ const ExperienceItemSubtitle = styled.p`
   margin-bottom: 0.6em;
 `;
 
-const ExperienceItemSubtitleIcon = styled.span`
-  margin-right: ${theme.spacing(0.5)};
-`;
-
 const ExperienceItemSummary = styled.p`
   margin-top: 0;
-  margin-bottom: ${theme.spacing(1)};
+  margin-bottom: 0.5em;
 `;
 
 const ExperienceItemDetails = styled.ul`
   margin-top: 0;
-  padding-left: ${theme.spacing(3)};
+  padding-left: ${theme.spacing(4)};
 `;
 
 const ExperienceItemDetail = styled.li`
-  margin-bottom: ${theme.spacing(1)};
+  margin-bottom: 0.4em;
 `;
 
 const ExperienceSection = () => (
@@ -38,14 +34,17 @@ const ExperienceSection = () => (
       <Timestamp>2017 - Present</Timestamp>
       <ExperienceItemTitle>Software Engineer</ExperienceItemTitle>
       <ExperienceItemSubtitle>
-        <ExperienceItemSubtitleIcon>
-          <StaticImage
-            src="../images/icons/avi.svg"
-            width={25}
-            height={25}
-            objectFit="contain"
-          />
-        </ExperienceItemSubtitleIcon>
+        <StaticImage
+          src="../images/icons/avi.svg"
+          width={25}
+          height={25}
+          objectFit="contain"
+          alt=""
+          as="span"
+          style={{
+            marginRight: theme.spacing(1),
+          }}
+        />
         Applied Visions, Inc.
       </ExperienceItemSubtitle>
 
