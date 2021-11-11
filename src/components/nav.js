@@ -65,7 +65,7 @@ const Nav = () => {
       </SelfieContainer>
       <NavLink href="">
         <NavLinkIcon>
-          <StaticImage src="../images/icons/resume.svg" {...iconProps} />
+          <StaticImage src="../images/icons/document.svg" {...iconProps} />
         </NavLinkIcon>
         Resume
       </NavLink>
@@ -77,7 +77,7 @@ const Nav = () => {
       </NavLink>
       <NavLink href="">
         <NavLinkIcon>
-          <StaticImage src="../images/icons/email.svg" {...iconProps} />
+          <StaticImage src="../images/icons/at.svg" {...iconProps} />
         </NavLinkIcon>
         Email
       </NavLink>
