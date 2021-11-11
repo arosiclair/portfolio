@@ -4,8 +4,10 @@ import styled from 'styled-components';
 import theme from '../theme';
 
 const NavContainer = styled.nav`
+  margin: ${theme.spacing(0, -2)};
+  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
-  padding: ${theme.spacing(2, 0)};
+  padding: ${theme.spacing(2)};
   justify-content: space-around;
 
   @media ${theme.mediaQueries.tablet} {
@@ -20,7 +22,6 @@ const SelfieContainer = styled.div`
   width: 40px;
   display: flex;
   align-items: center;
-  margin-right: ${theme.spacing(1)};
 
   @media ${theme.mediaQueries.tablet} {
     width: 100px;
@@ -30,10 +31,9 @@ const SelfieContainer = styled.div`
 const NavLink = styled.a`
   display: flex;
   align-items: center;
-  margin: 0.25em;
 
   @media ${theme.mediaQueries.tablet} {
-    margin: 0.5em;
+    margin: 0.5em 0;
   }
 `;
 
