@@ -34,7 +34,7 @@ const NavConatiner = styled.nav`
 
   @media ${theme.mediaQueries.tablet} {
     height: 100%;
-    width: 200px;
+    width: 175px;
     float: right;
   }
 `;
