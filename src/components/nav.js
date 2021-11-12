@@ -73,19 +73,22 @@ const Nav = () => {
           }}
         />
       </SelfieContainer>
-      <NavLink href="">
+      <NavLink
+        href="https://docs.google.com/document/d/1PAxJbNvlcAq07UNchptjooQ4x3vcSeGdp7NfbvPfHBo/edit?usp=sharing"
+        target="_blank"
+      >
         <NavLinkIcon>
           <StaticImage src="../images/icons/document.svg" {...iconProps} />
         </NavLinkIcon>
         Resume
       </NavLink>
-      <NavLink href="">
+      <NavLink href="https://github.com/arosiclair" target="_blank">
         <NavLinkIcon>
           <StaticImage src="../images/icons/github.svg" {...iconProps} />
         </NavLinkIcon>
         GitHub
       </NavLink>
-      <NavLink href="">
+      <NavLink href="mailto:arosiclair@gmail.com" target="_blank">
         <NavLinkIcon>
           <StaticImage src="../images/icons/at.svg" {...iconProps} />
         </NavLinkIcon>
