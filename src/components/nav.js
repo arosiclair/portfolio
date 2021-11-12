@@ -46,8 +46,14 @@ const NavLinkIcon = styled.span`
 
   @media ${theme.mediaQueries.tablet} {
     display: initial;
+    position: relative;
+    top: 2px;
     width: 25px;
-    margin-right: 0.25em;
+    margin-right: 0.4em;
+  }
+
+  @media ${theme.mediaQueries.darkMode} {
+    filter invert(100%);
   }
 `;
 
