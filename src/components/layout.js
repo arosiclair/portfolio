@@ -21,6 +21,11 @@ const ContentContainer = styled.div`
 `;
 const MainContainer = styled.main`
   flex: 1;
+  margin: ${theme.spacing(1, 0)};
+
+  @media ${theme.mediaQueries.tablet} {
+    margin: 0;
+  }
 `;
 const NavConatiner = styled.nav`
   position: sticky;
