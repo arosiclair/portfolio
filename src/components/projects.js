@@ -52,6 +52,27 @@ const ProjectsSection = () => (
         </p>
       </ProjectDetails>
     </Project>
+    <Project>
+      <ProjectImage>
+        <StaticImage
+          src="https://via.placeholder.com/1024"
+          alt=""
+          imgStyle={{
+            borderRadius: theme.shape.borderRadius,
+          }}
+        />
+      </ProjectImage>
+      <ProjectDetails>
+        <Timestamp>2017</Timestamp>
+        <h3>Fwitter</h3>
+        <p>
+          Fwitter was a project on using cloud infrastructure to replicate
+          Twitter&apos;s functionality and support thousands of requests per
+          second. Its infrastructure featured a horizontally scaled REST API and
+          a sharded MongoDB database.
+        </p>
+      </ProjectDetails>
+    </Project>
   </section>
 );
 
