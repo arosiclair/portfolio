@@ -25,6 +25,7 @@ const MainContainer = styled.main`
 const NavConatiner = styled.nav`
   position: sticky;
   top: 0;
+  z-index: 1000;
 
   @media ${theme.mediaQueries.tablet} {
     height: 100%;
