@@ -28,6 +28,10 @@ const TechItem = styled.div`
   margin: ${theme.spacing(0, 1, 1, 0)};
   background-color: rgba(0, 0, 0, 0.05);
   padding: 0.5em;
+
+  @media ${theme.mediaQueries.darkMode} {
+    background-color: rgba(255, 255, 255, 0.075);
+  }
 `;
 
 const TechItemIcon = styled.span`

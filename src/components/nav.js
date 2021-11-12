@@ -16,6 +16,10 @@ const NavContainer = styled.nav`
     justify-content: normal;
     overflow: hidden;
   }
+
+  @media ${theme.mediaQueries.darkMode} {
+    background-color: rgba(33, 33, 33, 0.8);
+  }
 `;
 
 const SelfieContainer = styled.div`
