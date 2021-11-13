@@ -55,7 +55,7 @@ const ProjectsSection = () => (
     <Project>
       <ProjectImage>
         <StaticImage
-          src="https://via.placeholder.com/1024"
+          src="../images/projects/fwitter.png"
           alt=""
           imgStyle={{
             borderRadius: theme.shape.borderRadius,
