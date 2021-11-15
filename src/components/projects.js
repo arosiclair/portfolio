@@ -49,7 +49,21 @@ const ProjectsSection = () => (
           where all additions are ephemeral, forcing users to keep a tidy list
           and read entries in a timely manner. It features a pleasant UI,
           installable PWA, Chrome extension, and push notifications.
+          <div>
+            <a href="https://www.sooner.app" target="_blank" rel="noreferrer">
+              App
+            </a>
+            {' · '}
+            <a
+              href="https://github.com/arosiclair/sooner"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source
+            </a>
+          </div>
         </p>
+        <p></p>
       </ProjectDetails>
     </Project>
     <Project>
@@ -70,6 +84,15 @@ const ProjectsSection = () => (
           Twitter&apos;s functionality and support thousands of requests per
           second. Its infrastructure featured a horizontally scaled REST API and
           a sharded MongoDB database.
+          <div>
+            <a
+              href="https://github.com/arosiclair/fwitter"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source
+            </a>
+          </div>
         </p>
       </ProjectDetails>
     </Project>
