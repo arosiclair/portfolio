@@ -119,6 +119,12 @@ const SkillsSection = () => (
         </TechItemIcon>
         SQLServer
       </TechItem>
+      <TechItem>
+        <TechItemIcon>
+          <StaticImage src="../images/icons/rabbitmq.svg" {...iconProps} />
+        </TechItemIcon>
+        RabbitMQ
+      </TechItem>
     </Skill>
     <Skill title="UI Design & Wireframing">
       <TechItem>
