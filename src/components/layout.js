@@ -14,6 +14,7 @@ const PageContainer = styled.div`
 const ContentContainer = styled.div`
   width: max(850px, 1vw);
   padding: ${theme.spacing(0, 2)};
+  position: relative;
 
   @media ${theme.mediaQueries.tablet} {
     padding: ${theme.spacing(6, 3)};
@@ -25,17 +26,20 @@ const MainContainer = styled.main`
 
   @media ${theme.mediaQueries.tablet} {
     margin: 0;
+    padding-right: 175px;
   }
 `;
-const NavConatiner = styled.nav`
+const NavContainer = styled.nav`
   position: sticky;
   top: 0;
   z-index: 1000;
 
   @media ${theme.mediaQueries.tablet} {
+    position: absolute;
+    top: ${theme.spacing(5)};
+    right: 0;
     height: 100%;
     width: 175px;
-    float: right;
   }
 `;
 
@@ -48,11 +52,11 @@ const Layout = ({ children }) => {
   return (
     <PageContainer>
       <ContentContainer>
-        <NavConatiner>
+        <NavContainer>
           <NavContent>
             <Nav />
           </NavContent>
-        </NavConatiner>
+        </NavContainer>
         <MainContainer>{children}</MainContainer>
       </ContentContainer>
     </PageContainer>

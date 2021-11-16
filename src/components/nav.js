@@ -11,7 +11,7 @@ const NavContainer = styled.nav`
   justify-content: space-around;
 
   @media ${theme.mediaQueries.tablet} {
-    padding: ${theme.spacing(6, 4)};
+    padding: ${theme.spacing(6, 3)};
     flex-direction: column;
     justify-content: normal;
     overflow: hidden;
