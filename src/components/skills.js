@@ -149,6 +149,18 @@ const SkillsSection = () => (
       </TechItem>
       <TechItem>
         <TechItemIcon>
+          <StaticImage src="../images/icons/html.svg" {...iconProps} />
+        </TechItemIcon>
+        HTML
+      </TechItem>
+      <TechItem>
+        <TechItemIcon>
+          <StaticImage src="../images/icons/css.svg" {...iconProps} />
+        </TechItemIcon>
+        CSS
+      </TechItem>
+      <TechItem>
+        <TechItemIcon>
           <StaticImage src="../images/icons/python.svg" {...iconProps} />
         </TechItemIcon>
         Python
