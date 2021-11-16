@@ -63,6 +63,10 @@ const ExperienceSection = () => (
           Android and iOS apps for a national gym serving millions of users.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
+          Python and React apps for benchmarking and comparing static code
+          analyzers.
+        </ExperienceItemDetail>
+        <ExperienceItemDetail>
           React app, Express API, deployment and system architecture for a large
           research effort on visualizing and expediting assurance of mission
           critical software.
