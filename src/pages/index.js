@@ -12,7 +12,13 @@ const IndexPage = () => {
   return (
     <Layout>
       <Helmet>
+        <meta charSet="utf-8" />
         <title>Andrew Rosiclair&apos;s Portfolio</title>
+        <meta
+          name="description"
+          content="Software Engineer, Andrew Rosiclair's Portfolio"
+        ></meta>
+        <meta name="author" content="Andrew Rosiclair"></meta>
       </Helmet>
       <IntroSection />
       <SkillsSection />
