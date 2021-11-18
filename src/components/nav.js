@@ -76,13 +76,18 @@ const Nav = () => {
       <NavLink
         href="https://docs.google.com/document/d/1PAxJbNvlcAq07UNchptjooQ4x3vcSeGdp7NfbvPfHBo/edit?usp=sharing"
         target="_blank"
+        rel="noreferrer"
       >
         <NavLinkIcon>
           <StaticImage src="../images/icons/document.svg" {...iconProps} />
         </NavLinkIcon>
         Resume
       </NavLink>
-      <NavLink href="https://github.com/arosiclair" target="_blank">
+      <NavLink
+        href="https://github.com/arosiclair"
+        target="_blank"
+        rel="noreferrer"
+      >
         <NavLinkIcon>
           <StaticImage src="../images/icons/github.svg" {...iconProps} />
         </NavLinkIcon>
