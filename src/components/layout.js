@@ -12,7 +12,7 @@ const PageContainer = styled.div`
   justify-content: center;
 `;
 const ContentContainer = styled.div`
-  width: max(850px, 1vw);
+  max-width: 900px;
   padding: ${theme.spacing(0, 2)};
   position: relative;
 
