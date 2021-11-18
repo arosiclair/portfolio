@@ -51,7 +51,7 @@ const SkillsSection = () => (
     <Skill title="Software Engineering">
       <TechItem>Software Design</TechItem>
       <TechItem>Algorithm Design</TechItem>
-      <TechItem>Service Oriented Architecture</TechItem>
+      <TechItem>Service-oriented Architecture</TechItem>
       <TechItem>REST APIs</TechItem>
       <TechItem>OOP</TechItem>
       <TechItem>Deployment</TechItem>
