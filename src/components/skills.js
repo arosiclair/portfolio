@@ -51,7 +51,7 @@ const SkillsSection = () => (
     <Skill title="Software Engineering">
       <TechItem>Software Design</TechItem>
       <TechItem>Algorithm Design</TechItem>
-      <TechItem>Service Oriented Architecture</TechItem>
+      <TechItem>Service-oriented Architecture</TechItem>
       <TechItem>REST APIs</TechItem>
       <TechItem>OOP</TechItem>
       <TechItem>Deployment</TechItem>
@@ -126,14 +126,6 @@ const SkillsSection = () => (
         RabbitMQ
       </TechItem>
     </Skill>
-    <Skill title="UI Design & Wireframing">
-      <TechItem>
-        <TechItemIcon>
-          <StaticImage src="../images/icons/figma.svg" {...iconProps} />
-        </TechItemIcon>
-        Figma
-      </TechItem>
-    </Skill>{' '}
     <Skill title="Languages">
       <TechItem>
         <TechItemIcon>
@@ -170,6 +162,14 @@ const SkillsSection = () => (
           <StaticImage src="../images/icons/csharp.svg" {...iconProps} />
         </TechItemIcon>
         C#
+      </TechItem>
+    </Skill>
+    <Skill title="UI Design & Wireframing">
+      <TechItem>
+        <TechItemIcon>
+          <StaticImage src="../images/icons/figma.svg" {...iconProps} />
+        </TechItemIcon>
+        Figma
       </TechItem>
     </Skill>
   </section>
