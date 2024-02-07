@@ -65,9 +65,9 @@ const SkillsSection = () => (
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/redux.svg" {...iconProps} />
+          <StaticImage src="../images/icons/react.svg" {...iconProps} />
         </TechItemIcon>
-        Redux
+        React Native
       </TechItem>
       <TechItem>
         <TechItemIcon>
@@ -77,21 +77,15 @@ const SkillsSection = () => (
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/vue.svg" {...iconProps} />
+          <StaticImage src="../images/icons/pwa.svg" {...iconProps} />
         </TechItemIcon>
-        Vuex
+        Progressive Web Apps
       </TechItem>
       <TechItem>
         <TechItemIcon>
           <StaticImage src="../images/icons/xamarin.svg" {...iconProps} />
         </TechItemIcon>
         Xamarin
-      </TechItem>
-      <TechItem>
-        <TechItemIcon>
-          <StaticImage src="../images/icons/pwa.svg" {...iconProps} />
-        </TechItemIcon>
-        Progressive Web Apps
       </TechItem>
     </Skill>
     <Skill title="Backend Development">
@@ -117,7 +111,7 @@ const SkillsSection = () => (
         <TechItemIcon>
           <StaticImage src="../images/icons/database.svg" {...iconProps} />
         </TechItemIcon>
-        SQLServer
+        SQL
       </TechItem>
       <TechItem>
         <TechItemIcon>
@@ -141,15 +135,9 @@ const SkillsSection = () => (
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/html.svg" {...iconProps} />
+          <StaticImage src="../images/icons/php.svg" {...iconProps} />
         </TechItemIcon>
-        HTML
-      </TechItem>
-      <TechItem>
-        <TechItemIcon>
-          <StaticImage src="../images/icons/css.svg" {...iconProps} />
-        </TechItemIcon>
-        CSS
+        PHP
       </TechItem>
       <TechItem>
         <TechItemIcon>
