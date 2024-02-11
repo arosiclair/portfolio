@@ -141,15 +141,15 @@ const SkillsSection = () => (
       </TechItem>
       <TechItem>
         <TechItemIcon>
-          <StaticImage src="../images/icons/python.svg" {...iconProps} />
-        </TechItemIcon>
-        Python
-      </TechItem>
-      <TechItem>
-        <TechItemIcon>
           <StaticImage src="../images/icons/csharp.svg" {...iconProps} />
         </TechItemIcon>
         C#
+      </TechItem>
+      <TechItem>
+        <TechItemIcon>
+          <StaticImage src="../images/icons/python.svg" {...iconProps} />
+        </TechItemIcon>
+        Python
       </TechItem>
     </Skill>
     <Skill title="UI Design & Wireframing">
