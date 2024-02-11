@@ -19,7 +19,7 @@ const IntroSection = () => {
       <h1>Welcome,</h1>
       <IntroText>
         I&apos;m a Software Engineer based in Norwalk, CT with{' '}
-        {yearsOfExperience} years of experience focusing on full-stack
+        {yearsOfExperience} years of experience focusing on full stack
         development of web and mobile applications.
       </IntroText>
     </section>
