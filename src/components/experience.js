@@ -9,7 +9,6 @@ const ExperienceItem = styled.div``;
 const ExperienceItemTitle = styled.h3``;
 
 const ExperienceItemSubtitle = styled.p`
-  vertical-align: middle;
   margin-bottom: 0.6em;
 `;
 
@@ -31,17 +30,60 @@ const ExperienceSection = () => (
   <section>
     <h2>Experience</h2>
     <ExperienceItem>
-      <Timestamp>2017 - Present</Timestamp>
+      <Timestamp>2022 - Present</Timestamp>
+      <ExperienceItemTitle>Full Stack Engineer</ExperienceItemTitle>
+      <ExperienceItemSubtitle>
+        <StaticImage
+          src="../images/icons/expensify.svg"
+          width={30}
+          height={30}
+          objectFit="contain"
+          as="span"
+          style={{
+            verticalAlign: 'middle',
+            marginRight: theme.spacing(1),
+          }}
+        />
+        Expensify, Inc
+      </ExperienceItemSubtitle>
+      <ExperienceItemSummary>
+        Building and maintaing expense management and chat apps for millions of
+        users. Some of this work is{' '}
+        <a
+          href="https://github.com/Expensify/App/pulls?page=1&q=is%3Apr+author%3Aarosiclair"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open source
+        </a>
+        . Projects include:
+      </ExperienceItemSummary>
+      <ExperienceItemDetails>
+        <ExperienceItemDetail>
+          Rebuilding push notifications for reliability and implementing
+          background refresh for our React Native app.
+        </ExperienceItemDetail>
+        <ExperienceItemDetail>
+          Technical design and implementation for our distance expense tracking
+          feature.
+        </ExperienceItemDetail>
+        <ExperienceItemDetail>
+          Collaborating with vendors and managing external engineers
+        </ExperienceItemDetail>
+      </ExperienceItemDetails>
+    </ExperienceItem>
+    <ExperienceItem>
+      <Timestamp>2017 - 2022</Timestamp>
       <ExperienceItemTitle>Software Engineer</ExperienceItemTitle>
       <ExperienceItemSubtitle>
         <StaticImage
           src="../images/icons/avi.svg"
-          width={25}
-          height={25}
+          width={30}
+          height={30}
           objectFit="contain"
-          alt=""
           as="span"
           style={{
+            verticalAlign: 'middle',
             marginRight: theme.spacing(1),
           }}
         />
