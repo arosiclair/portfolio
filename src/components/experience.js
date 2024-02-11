@@ -40,7 +40,11 @@ const ExperienceSection = () => (
       <Timestamp>2022 - Present</Timestamp>
       <ExperienceItemTitle>Full Stack Engineer</ExperienceItemTitle>
       <ExperienceItemSubtitle>
-        <ExperienceLink href="https://www.expensify.com">
+        <ExperienceLink
+          href="https://www.expensify.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <StaticImage
             src="../images/icons/expensify.svg"
             width={30}
@@ -88,7 +92,11 @@ const ExperienceSection = () => (
         Software Engineer ⭢ Senior Software Engineer
       </ExperienceItemTitle>
       <ExperienceItemSubtitle>
-        <ExperienceLink href="https://www.avi.com">
+        <ExperienceLink
+          href="https://www.avi.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <StaticImage
             src="../images/icons/avi.png"
             width={30}
