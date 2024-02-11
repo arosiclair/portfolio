@@ -105,7 +105,7 @@ const ExperienceSection = () => (
           that is used worldwide.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
-          Android and iOS apps for a national gym serving millions of users.
+          Android and iOS apps for Planet Fitness.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
           Python and React apps for benchmarking and comparing static code
