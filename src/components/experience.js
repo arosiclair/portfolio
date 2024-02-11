@@ -67,6 +67,7 @@ const ExperienceSection = () => (
           Technical design and implementation for our distance expense tracking
           feature.
         </ExperienceItemDetail>
+        <ExperienceItemDetail>Refactoring our PHP web API</ExperienceItemDetail>
         <ExperienceItemDetail>
           Collaborating with vendors and managing external engineers
         </ExperienceItemDetail>
