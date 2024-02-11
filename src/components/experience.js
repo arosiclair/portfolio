@@ -90,7 +90,7 @@ const ExperienceSection = () => (
       <ExperienceItemSubtitle>
         <ExperienceLink href="https://www.avi.com">
           <StaticImage
-            src="../images/icons/avi.svg"
+            src="../images/icons/avi.png"
             width={30}
             height={30}
             objectFit="contain"
