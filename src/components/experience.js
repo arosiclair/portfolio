@@ -75,7 +75,9 @@ const ExperienceSection = () => (
     </ExperienceItem>
     <ExperienceItem>
       <Timestamp>2017 - 2022</Timestamp>
-      <ExperienceItemTitle>Software Engineer</ExperienceItemTitle>
+      <ExperienceItemTitle>
+        Software Engineer ⭢ Senior Software Engineer
+      </ExperienceItemTitle>
       <ExperienceItemSubtitle>
         <StaticImage
           src="../images/icons/avi.svg"
