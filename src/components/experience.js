@@ -12,6 +12,13 @@ const ExperienceItemSubtitle = styled.p`
   margin-bottom: 0.6em;
 `;
 
+const ExperienceLink = styled.a`
+  &:not(:hover) {
+    color: inherit;
+    text-decoration: inherit;
+  }
+`;
+
 const ExperienceItemSummary = styled.p`
   margin-top: 0;
   margin-bottom: 0.5em;
@@ -33,18 +40,20 @@ const ExperienceSection = () => (
       <Timestamp>2022 - Present</Timestamp>
       <ExperienceItemTitle>Full Stack Engineer</ExperienceItemTitle>
       <ExperienceItemSubtitle>
-        <StaticImage
-          src="../images/icons/expensify.svg"
-          width={30}
-          height={30}
-          objectFit="contain"
-          as="span"
-          style={{
-            verticalAlign: 'middle',
-            marginRight: theme.spacing(1),
-          }}
-        />
-        Expensify, Inc
+        <ExperienceLink href="https://www.expensify.com">
+          <StaticImage
+            src="../images/icons/expensify.svg"
+            width={30}
+            height={30}
+            objectFit="contain"
+            as="span"
+            style={{
+              verticalAlign: 'middle',
+              marginRight: theme.spacing(1),
+            }}
+          />
+          Expensify, Inc
+        </ExperienceLink>
       </ExperienceItemSubtitle>
       <ExperienceItemSummary>
         Building and maintaing expense management and chat apps for millions of
@@ -79,18 +88,20 @@ const ExperienceSection = () => (
         Software Engineer ⭢ Senior Software Engineer
       </ExperienceItemTitle>
       <ExperienceItemSubtitle>
-        <StaticImage
-          src="../images/icons/avi.svg"
-          width={30}
-          height={30}
-          objectFit="contain"
-          as="span"
-          style={{
-            verticalAlign: 'middle',
-            marginRight: theme.spacing(1),
-          }}
-        />
-        Applied Visions, Inc.
+        <ExperienceLink href="https://www.avi.com">
+          <StaticImage
+            src="../images/icons/avi.svg"
+            width={30}
+            height={30}
+            objectFit="contain"
+            as="span"
+            style={{
+              verticalAlign: 'middle',
+              marginRight: theme.spacing(1),
+            }}
+          />
+          Applied Visions, Inc.
+        </ExperienceLink>
       </ExperienceItemSubtitle>
 
       <ExperienceItemSummary>
