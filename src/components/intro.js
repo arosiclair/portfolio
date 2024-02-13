@@ -16,7 +16,7 @@ const IntroSection = () => {
 
   return (
     <section>
-      <h1>Welcome,</h1>
+      <h1>Hey there,</h1>
       <IntroText>
         I&apos;m a Software Engineer based in Norwalk, CT with{' '}
         {yearsOfExperience} years of experience focusing on full stack
