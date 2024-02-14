@@ -74,7 +74,7 @@ const Nav = () => {
         />
       </SelfieContainer>
       <NavLink
-        href="https://docs.google.com/document/d/1PAxJbNvlcAq07UNchptjooQ4x3vcSeGdp7NfbvPfHBo/edit?usp=sharing"
+        href="https://drive.google.com/file/d/1oIoy5OfRqQTrLsuDWiUXLTYn3tr4zHcr/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
