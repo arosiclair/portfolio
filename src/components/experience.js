@@ -80,7 +80,6 @@ const ExperienceSection = () => (
           Technical design and implementation for our distance expense tracking
           feature.
         </ExperienceItemDetail>
-        <ExperienceItemDetail>Refactoring our PHP web API</ExperienceItemDetail>
         <ExperienceItemDetail>
           Collaborating with vendors and managing external engineers
         </ExperienceItemDetail>
@@ -113,9 +112,8 @@ const ExperienceSection = () => (
       </ExperienceItemSubtitle>
 
       <ExperienceItemSummary>
-        Building and maintaining a wide variety of products as part of large and
-        small agile teams to deliver on product goals for clients. Projects
-        include:
+        Building and maintaining a wide variety of products for clients on small
+        to medium size agile teams. Projects include:
       </ExperienceItemSummary>
       <ExperienceItemDetails>
         <ExperienceItemDetail>
