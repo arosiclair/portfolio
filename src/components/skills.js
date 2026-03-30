@@ -51,6 +51,7 @@ const SkillsSection = () => (
     <Skill title="Software Engineering">
       <SkillItem>Software Design</SkillItem>
       <SkillItem>Algorithm Design</SkillItem>
+      <SkillItem>Performance Optimization</SkillItem>
       <SkillItem>Service-oriented Architecture</SkillItem>
       <SkillItem>REST APIs</SkillItem>
       <SkillItem>OOP</SkillItem>
@@ -145,6 +146,12 @@ const SkillsSection = () => (
           <StaticImage src="../images/icons/csharp.svg" {...iconProps} />
         </SkillItemIcon>
         C#
+      </SkillItem>
+      <SkillItem>
+        <SkillItemIcon>
+          <StaticImage src="../images/icons/cpp.svg" {...iconProps} />
+        </SkillItemIcon>
+        C++
       </SkillItem>
       <SkillItem>
         <SkillItemIcon>
