@@ -38,7 +38,9 @@ const ExperienceSection = () => (
     <h2>Experience</h2>
     <ExperienceItem>
       <Timestamp>2022 - Present</Timestamp>
-      <ExperienceItemTitle>Full Stack Engineer</ExperienceItemTitle>
+      <ExperienceItemTitle>
+        Software Engineer ⭢ Project Engineer
+      </ExperienceItemTitle>
       <ExperienceItemSubtitle>
         <ExperienceLink
           href="https://www.expensify.com"
@@ -60,8 +62,8 @@ const ExperienceSection = () => (
         </ExperienceLink>
       </ExperienceItemSubtitle>
       <ExperienceItemSummary>
-        Building and maintaing expense management and chat apps for millions of
-        users. Some of this work is{' '}
+        Building and maintaing an expense management and chat app for millions
+        of users. Some of this work is{' '}
         <a
           href="https://github.com/Expensify/App/pulls?page=1&q=is%3Apr+author%3Aarosiclair"
           target="_blank"
@@ -78,10 +80,13 @@ const ExperienceSection = () => (
         </ExperienceItemDetail>
         <ExperienceItemDetail>
           Technical design and implementation for our distance expense tracking
-          feature.
+          and export to integration features.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
-          Collaborating with vendors and managing external engineers
+          Performance and memory optimizations for real-time data updates
+        </ExperienceItemDetail>
+        <ExperienceItemDetail>
+          Leading small teams of 2-4 engineers and contributors
         </ExperienceItemDetail>
       </ExperienceItemDetails>
     </ExperienceItem>
