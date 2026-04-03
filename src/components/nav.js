@@ -53,7 +53,7 @@ const NavLinkIcon = styled.span`
   }
 
   @media ${theme.mediaQueries.darkMode} {
-    filter invert(100%);
+    filter: invert(100%);
   }
 `;
 
