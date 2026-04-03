@@ -34,6 +34,73 @@ const ProjectsSection = () => (
     <Project>
       <ProjectImage>
         <StaticImage
+          src="../images/projects/page-limiter.png"
+          alt="Page Limiter logo"
+          imgStyle={{
+            borderRadius: theme.shape.borderRadius,
+          }}
+        />
+      </ProjectImage>
+      <ProjectDetails>
+        <Timestamp>2025</Timestamp>
+        <h3>Page Limiter</h3>
+        <p>
+          A Chrome extension for blocking and setting timelimits on websites. It
+          has powerful filtering via regular expressions, a strict mode and
+          syncing across devices.
+          <br />
+          <a href="https://www.althacker.news" target="_blank" rel="noreferrer">
+            App
+          </a>
+          {' · '}
+          <a
+            href="https://github.com/arosiclair/alt-hacker-news"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Source
+          </a>
+        </p>
+        <p></p>
+      </ProjectDetails>
+    </Project>
+    <Project>
+      <ProjectImage>
+        <StaticImage
+          src="../images/projects/alt-hacker-news.png"
+          alt="alt Hacker News logo"
+          imgStyle={{
+            borderRadius: theme.shape.borderRadius,
+          }}
+        />
+      </ProjectImage>
+      <ProjectDetails>
+        <Timestamp>2024</Timestamp>
+        <h3>
+          <i>alt</i> Hacker News
+        </h3>
+        <p>
+          alt Hacker News is an alternative frontend for Hacker News with much
+          improved readability and typography (especially on mobile).
+          <br />
+          <a href="https://www.althacker.news" target="_blank" rel="noreferrer">
+            App
+          </a>
+          {' · '}
+          <a
+            href="https://github.com/arosiclair/alt-hacker-news"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Source
+          </a>
+        </p>
+        <p></p>
+      </ProjectDetails>
+    </Project>
+    <Project>
+      <ProjectImage>
+        <StaticImage
           src="../images/projects/sooner.png"
           alt="Sooner app logo"
           imgStyle={{
@@ -42,7 +109,7 @@ const ProjectsSection = () => (
         />
       </ProjectImage>
       <ProjectDetails>
-        <Timestamp>2019 - Present</Timestamp>
+        <Timestamp>2019 - 2024</Timestamp>
         <h3>Sooner</h3>
         <p>
           Sooner is an <i>anti</i> reading list app. It provides a reading list
