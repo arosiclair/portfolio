@@ -80,8 +80,8 @@ const ProjectsSection = () => (
           <i>alt</i> Hacker News
         </h3>
         <p>
-          alt Hacker News is an alternative frontend for Hacker News with much
-          improved readability and typography (especially on mobile).
+          An alternative frontend for Hacker News with much improved readability
+          and typography (especially on mobile).
           <br />
           <a href="https://www.althacker.news" target="_blank" rel="noreferrer">
             App
@@ -112,10 +112,10 @@ const ProjectsSection = () => (
         <Timestamp>2019 - 2024</Timestamp>
         <h3>Sooner</h3>
         <p>
-          Sooner is an <i>anti</i> reading list app. It provides a reading list
-          where all additions are ephemeral, forcing users to keep a tidy list
-          and read entries in a timely manner. It features a pleasant UI,
-          installable PWA, Chrome extension, and push notifications.
+          An <i>anti</i> reading list app. It provides a reading list where all
+          additions are ephemeral, forcing users to keep a tidy list and read
+          entries in a timely manner. It features a pleasant UI, installable
+          PWA, Chrome extension, and push notifications.
           <br />
           <a href="https://www.sooner.app" target="_blank" rel="noreferrer">
             App
@@ -146,10 +146,10 @@ const ProjectsSection = () => (
         <Timestamp>2017</Timestamp>
         <h3>Fwitter</h3>
         <p>
-          Fwitter was a project on using cloud infrastructure to replicate
-          Twitter&apos;s functionality and support thousands of requests per
-          second. Its infrastructure featured a horizontally scaled REST API and
-          a sharded MongoDB database.
+          A project on using cloud infrastructure to replicate Twitter&apos;s
+          functionality and support thousands of requests per second. Its
+          infrastructure featured a horizontally scaled REST API and a sharded
+          MongoDB database.
           <br />
           <a
             href="https://github.com/arosiclair/fwitter"
