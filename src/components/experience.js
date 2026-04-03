@@ -1,5 +1,5 @@
-import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import theme from '../theme';
 import Timestamp from './timestamp';
@@ -30,6 +30,7 @@ const ExperienceItemDetails = styled.ul`
 `;
 
 const ExperienceItemDetail = styled.li`
+  font-size: 0.9em;
   margin-bottom: 0.4em;
 `;
 
@@ -71,12 +72,12 @@ const ExperienceSection = () => (
         >
           open source
         </a>
-        . Projects include:
+        .
       </ExperienceItemSummary>
       <ExperienceItemDetails>
         <ExperienceItemDetail>
-          Rebuilding push notifications for reliability and implementing
-          background refresh for our React Native app.
+          Rebuilt push notifications for reliability and implemented background
+          refresh for our React Native app.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
           Technical design and implementation for our distance expense tracking
