@@ -30,7 +30,6 @@ const ExperienceItemDetails = styled.ul`
 `;
 
 const ExperienceItemDetail = styled.li`
-  font-size: 0.9em;
   margin-bottom: 0.4em;
 `;
 
