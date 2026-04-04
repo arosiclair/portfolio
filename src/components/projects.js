@@ -8,7 +8,7 @@ const Project = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: ${theme.spacing(3)};
+  margin-bottom: ${theme.spacing(4)};
 
   @media ${theme.mediaQueries.tablet} {
     flex-direction: row;
@@ -18,10 +18,10 @@ const Project = styled.div`
 
 const ProjectImage = styled.div`
   flex: 1;
-  margin: ${theme.spacing(0, 2, 2)};
+  margin: ${theme.spacing(0, 0, 2)};
 
   @media ${theme.mediaQueries.tablet} {
-    margin: ${theme.spacing(2, 2, 0, 0)};
+    margin: ${theme.spacing(0, 2, 0, 0)};
   }
 `;
 
