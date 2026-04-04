@@ -13,7 +13,7 @@ const Skill = ({ title, children }) => {
 };
 
 const SkillContainer = styled.div`
-  margin-bottom: ${theme.spacing(1)};
+  margin-bottom: ${theme.spacing(2)};
 `;
 
 const SkillItemContainer = styled.div`
