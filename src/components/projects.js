@@ -8,6 +8,7 @@ const Project = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: ${theme.spacing(3)};
 
   @media ${theme.mediaQueries.tablet} {
     flex-direction: row;
@@ -26,6 +27,10 @@ const ProjectImage = styled.div`
 
 const ProjectDetails = styled.div`
   flex: 3;
+
+  & > p {
+    margin-bottom: 0;
+  }
 `;
 
 const ProjectsSection = () => (
@@ -81,7 +86,7 @@ const ProjectsSection = () => (
         </h3>
         <p>
           An alternative frontend for Hacker News with much improved readability
-          and typography (especially on mobile).
+          and typography.
           <br />
           <a href="https://www.althacker.news" target="_blank" rel="noreferrer">
             App
@@ -112,10 +117,10 @@ const ProjectsSection = () => (
         <Timestamp>2019 - 2024</Timestamp>
         <h3>Sooner</h3>
         <p>
-          An <i>anti</i> reading list app. It provides a reading list where all
-          additions are ephemeral, forcing users to keep a tidy list and read
-          entries in a timely manner. It features a pleasant UI, installable
-          PWA, Chrome extension, and push notifications.
+          The <i>anti</i> reading list app. All list items are ephemeral,
+          forcing users to keep a tidy list and read entries in a timely manner.
+          It features a pleasant UI, installable PWA, Chrome extension, and push
+          notifications for reminders.
           <br />
           <a href="https://www.sooner.app" target="_blank" rel="noreferrer">
             App
@@ -129,7 +134,6 @@ const ProjectsSection = () => (
             Source
           </a>
         </p>
-        <p></p>
       </ProjectDetails>
     </Project>
     <Project>
