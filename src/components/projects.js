@@ -54,12 +54,16 @@ const ProjectsSection = () => (
           has powerful filtering via regular expressions, a strict mode and
           syncing across devices.
           <br />
-          <a href="https://www.althacker.news" target="_blank" rel="noreferrer">
+          <a
+            href="https://chromewebstore.google.com/detail/bgonhococdgdpelkalcdmijhlofiggal?utm_source=item-share-cb"
+            target="_blank"
+            rel="noreferrer"
+          >
             App
           </a>
           {' · '}
           <a
-            href="https://github.com/arosiclair/alt-hacker-news"
+            href="https://github.com/arosiclair/page-limiter"
             target="_blank"
             rel="noreferrer"
           >
