@@ -111,9 +111,9 @@ const SkillsSection = () => (
       </SkillItem>
       <SkillItem>
         <SkillItemIcon>
-          <StaticImage src="../images/icons/database.svg" {...iconProps} />
+          <StaticImage src="../images/icons/sqlite.svg" {...iconProps} />
         </SkillItemIcon>
-        SQL
+        SQLite
       </SkillItem>
       <SkillItem>
         <SkillItemIcon>
@@ -125,15 +125,9 @@ const SkillsSection = () => (
     <Skill title="Languages">
       <SkillItem>
         <SkillItemIcon>
-          <StaticImage src="../images/icons/javascript.svg" {...iconProps} />
-        </SkillItemIcon>
-        Javascript
-      </SkillItem>
-      <SkillItem>
-        <SkillItemIcon>
           <StaticImage src="../images/icons/typescript.svg" {...iconProps} />
         </SkillItemIcon>
-        Typescript
+        TypeScript
       </SkillItem>
       <SkillItem>
         <SkillItemIcon>
@@ -146,6 +140,12 @@ const SkillsSection = () => (
           <StaticImage src="../images/icons/csharp.svg" {...iconProps} />
         </SkillItemIcon>
         C#
+      </SkillItem>
+      <SkillItem>
+        <SkillItemIcon>
+          <StaticImage src="../images/icons/java.svg" {...iconProps} />
+        </SkillItemIcon>
+        Java
       </SkillItem>
       <SkillItem>
         <SkillItemIcon>
