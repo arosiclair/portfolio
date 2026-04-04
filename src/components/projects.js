@@ -18,7 +18,7 @@ const Project = styled.div`
 
 const ProjectImage = styled.div`
   flex: 1;
-  margin: ${theme.spacing(0, 0, 2)};
+  margin: ${theme.spacing(0, 2, 2)};
 
   @media ${theme.mediaQueries.tablet} {
     margin: ${theme.spacing(0, 2, 0, 0)};
