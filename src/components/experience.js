@@ -71,16 +71,16 @@ const ExperienceSection = () => (
         >
           open source
         </a>
-        .
+        . My work included
       </ExperienceItemSummary>
       <ExperienceItemDetails>
         <ExperienceItemDetail>
-          Rebuilt push notifications for reliability and implemented background
-          refresh for our React Native app.
+          Rebuilding push notifications for reliability and implemented
+          background refresh for our React Native app.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
-          Technical design and implementation for our distance expense tracking
-          and export to integration features.
+          Technical design and implementation for distance expense tracking and
+          exporting to integrations.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
           Performance and memory optimizations for real-time data updates
@@ -118,13 +118,12 @@ const ExperienceSection = () => (
 
       <ExperienceItemSummary>
         Building and maintaining a wide variety of products for clients on small
-        to medium size agile teams. Projects include:
+        to medium size agile teams. My projects included
       </ExperienceItemSummary>
       <ExperienceItemDetails>
         <ExperienceItemDetail>
-          Android, iOS, Angular and .NET applications and services in a suite of
-          software used to manage and triage public transportation in real time
-          that is used worldwide.
+          Android, iOS, Angular and .NET applications and services for managing
+          public transportation in real time that is used worldwide.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
           Android and iOS apps for Planet Fitness.
@@ -134,7 +133,7 @@ const ExperienceSection = () => (
           analyzers.
         </ExperienceItemDetail>
         <ExperienceItemDetail>
-          React app, Express API, deployment and system architecture for a large
+          React app, Express API, deployment and system architecture for a
           research effort on visualizing and expediting assurance of mission
           critical software.
         </ExperienceItemDetail>
