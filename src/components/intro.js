@@ -10,7 +10,7 @@ const IntroSection = () => {
   useEffect(() => {
     const msSinceBegin = new Date() - new Date(2017, 4, 0);
     const msInYear = 31536000730;
-    const result = (msSinceBegin / msInYear).toFixed(1);
+    const result = (msSinceBegin / msInYear).toFixed(0);
     setYearsOfExperience(result);
   }, []);
 
