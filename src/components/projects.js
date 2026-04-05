@@ -50,8 +50,8 @@ const ProjectsSection = () => (
         <Timestamp>2025</Timestamp>
         <h3>Page Limiter</h3>
         <p>
-          A Chrome extension for blocking and setting timelimits on websites. It
-          has powerful filtering via regular expressions, a strict mode and
+          A Chrome extension for blocking and setting time limits on websites.
+          It has powerful filtering via regular expressions, a strict mode and
           syncing across devices.
           <br />
           <a

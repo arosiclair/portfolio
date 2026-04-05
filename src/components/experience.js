@@ -62,7 +62,7 @@ const ExperienceSection = () => (
         </ExperienceLink>
       </ExperienceItemSubtitle>
       <ExperienceItemSummary>
-        Building and maintaing an expense management and chat app for millions
+        Building and maintaining an expense management and chat app for millions
         of users. Some of this work is{' '}
         <a
           href="https://github.com/Expensify/App/pulls?page=1&q=is%3Apr+author%3Aarosiclair"
