@@ -16,7 +16,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "spellcheck": "cspell \"src/**/*.js\""
   },
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.0",
@@ -37,6 +38,7 @@
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
+    "cspell": "^9.8.0",
     "eslint-config-prettier": "^8.3.0"
   }
 }
